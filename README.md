@@ -1,13 +1,17 @@
-# projeto Padrao para desenvolver a API Quiz
+# Quiz app javascript
 
-Exemplo Servidor Operações GET / POST / PUT / DELETE
+Com Operações GET / POST 
 
-para usar esse projeto:
+Jogo de perguntas e resposta sobre javascript. O quiz possui 5 perguntas referente a linguagem de programação javascript.
+O jogo tambem possui um metodo post que permite o usuário adcionar perguntas atraves de um login e senha.
+
+
+##Para usar esse projeto:
 
 1. Clonar este repositório
 
 ```
-git clone https://github.com/TIQuizApi/projetoPadrao
+https://github.com/TIQuizApi/GROUP02.git
 ```
 
 2. entrar na pasta ou abrir o projeto (pasta) no VSCode
