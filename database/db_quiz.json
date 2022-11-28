@@ -1,0 +1,68 @@
+{
+  "questions": {
+    "q01": {
+      "id": "q01",
+      "question": "1. Quando o javascript foi criado?",
+      "description": "delete folder",
+      "answers": {
+        "answer_a": "(A)fevereiro de 2004",
+        "answer_b": "(B)junho de 1980",
+        "answer_c": "(C)janeiro de 1989",
+        "answer_d": "(D)Setembro de 1995",
+        "answer_e": ""
+      }
+    },
+
+    "q02": {
+      "id": "q02",
+      "question": "2. O que é o JavaScript?",
+      "description": "create folder",
+      "answers": {
+        "answer_a": "(A)É um programa",
+        "answer_b": "(B)É um template ",
+        "answer_c": "(C)É um sistema operacional",
+        "answer_d": "(D)É uma linguagem de programação",
+        "answer_e": ""
+      }
+    },
+
+    "q03": {
+      "id": "q03",
+      "question": "3. Qual desses elementos NÃO é um tipo de dado JavaScript?",
+      "description": "create folder",
+      "answers": {
+        "answer_a": "(A)String",
+        "answer_b": "(B)Number",
+        "answer_c": "(C)Boolean",
+        "answer_d": "(D)mkdir",
+        "answer_e": ""
+      }
+    },
+
+    "q04": {
+      "id": "q04",
+      "question": "4. O que é uma closure no JavaScript?",
+      "description": "create folder",
+      "answers": {
+        "answer_a": "(A)É uma seletor css",
+        "answer_b": "(B)É uma pasta",
+        "answer_c": "(C)É um Conjunto de numeros",
+        "answer_d": "(D)são variáveis ou funções que fazem parte do escopo de uma função",
+        "answer_e": ""
+      }
+    },
+
+    "q05": {
+      "id": "q05",
+      "question": "5. Oque faz os dois sinais de igual(==) No JavaScript?",
+      "description": "create folder",
+      "answers": {
+        "answer_a": "(A)É atribui uma variável",
+        "answer_b": "(B)Mostra o resultado de uma operação",
+        "answer_c": "(C)Cria uma função",
+        "answer_d": "(D)Verifica a igualdade entre valores",
+        "answer_e": ""
+      }
+    }
+  }
+}

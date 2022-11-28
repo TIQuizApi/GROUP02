@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz javascript</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!--Tela de boas vindas e iniciar quiz-->
+    <div id="caixa" class="item">
+      <h1>Quiz JavaScript</h1>
+      <span id="contador"></span>
+      <p class="p_title" id="p_titulo">
+        Salve,Gafanhoto(a)!! <br />
+        Você é bom em JavaScript?<br />Então Bora testar se você é fera
+        mesmo!<br />
+        👇clique aqui para:👇
+      </p>
+
+      <button
+        id="botao1"
+        class="btn_iniciar"
+        onclick="comecarQuiz('alternativa01')"
+      >
+        Começar o Quiz
+      </button>
+      <!--Fim da Tela de boas vindas e iniciar quiz-->
+
+      <!--Questão 01-->
+      <p class="style_question" id="question01"></p>
+      <section class="alternativa" id="alternativa01">
+        <button onclick="respost('r1')" class="btn_alt" id="resp_a"></button>
+        <button onclick="respost('r2')" class="btn_alt" id="resp_b"></button>
+        <button onclick="respost('r3')" class="btn_alt" id="resp_c"></button>
+        <button onclick="respost('r4')" class="btn_alt" id="resp_d"></button>
+      </section>
+
+      <button
+        class="prox_pergun"
+        id="prox_questao"
+        onclick="prox_q1('alternativa02')"
+      >
+        PROXIMA QUESTÃO
+      </button>
+
+      <!--Questão 02-->
+      <p class="style_question" id="question02"></p>
+      <section class="alternativa" id="alternativa02">
+        <button onclick="respost('r1')" class="btn_alt" id="resp_a02"></button>
+        <button onclick="respost('r2')" class="btn_alt" id="resp_b02"></button>
+        <button onclick="respost('r3')" class="btn_alt" id="resp_c02"></button>
+        <button onclick="respost('r4')" class="btn_alt" id="resp_d02"></button>
+      </section>
+
+      <button
+        class="prox_pergun"
+        id="btn_prox_questao2"
+        onclick="prox_q2('alternativa03')"
+      >
+        PROXIMA QUESTÃO
+      </button>
+
+      <!--Questão 03-->
+      <p class="style_question" id="question03"></p>
+      <section class="alternativa" id="alternativa03">
+        <button onclick="respost('r1')" class="btn_alt" id="resp_a03"></button>
+        <button onclick="respost('r2')" class="btn_alt" id="resp_b03"></button>
+        <button onclick="respost('r3')" class="btn_alt" id="resp_c03"></button>
+        <button onclick="respost('r4')" class="btn_alt" id="resp_d03"></button>
+      </section>
+
+      <button
+        class="prox_pergun"
+        id="btn_prox_questao3"
+        onclick="prox_q3('alternativa03')"
+      >
+        PROXIMA QUESTÃO
+      </button>
+
+      <!--Questão 04-->
+      <p class="style_question" id="question04"></p>
+      <section class="alternativa" id="alternativa04">
+        <button onclick="respost('r1')" class="btn_alt" id="resp_a04"></button>
+        <button onclick="respost('r2')" class="btn_alt" id="resp_b04"></button>
+        <button onclick="respost('r3')" class="btn_alt" id="resp_c04"></button>
+        <button onclick="respost('r4')" class="btn_alt" id="resp_d04"></button>
+      </section>
+
+      <button
+        class="prox_pergun"
+        id="btn_prox_questao4"
+        onclick="prox_q4('alternativa04')"
+      >
+        PROXIMA QUESTÃO
+      </button>
+
+      <!--Questão 05-->
+      <p class="style_question" id="question05"></p>
+      <section class="alternativa" id="alternativa05">
+        <button onclick="respost('r1')" class="btn_alt" id="resp_a05"></button>
+        <button onclick="respost('r2')" class="btn_alt" id="resp_b05"></button>
+        <button onclick="respost('r3')" class="btn_alt" id="resp_c05"></button>
+        <button onclick="respost('r4')" class="btn_alt" id="resp_d05"></button>
+      </section>
+
+      <button
+        class="prox_pergun"
+        id="btn_prox_questao5"
+        onclick="prox_q5('alternativa05')"
+      >
+        PROXIMA QUESTÃO
+      </button>
+
+      <!--Refazer o Quiz-->
+      <p class="style_question" id="resultadoQuizAcertos"></p>
+      <p class="style_question" id="resultadoQuizErros"></p>
+
+      <button
+        class="prox_pergun"
+        id="btn_refazerQuiz"
+        onclick="refazerQuiz('reQuiz')"
+      >
+        Refazer Quiz
+      </button>
+      <footer>
+        <p class="p_footer">
+          Desenvolvido pelo grupo 2 javascript ads unimonte
+        </p>
+      </footer>
+    </div>
+    <script src="/front/script.js"></script>
+  </body>
+</html>
